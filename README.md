@@ -1,2 +1,2 @@
-# time-series-RNN
-Project to perform time series forecasting with RNNs
+# Time Series Forecasting with Recurrent Neural Networks (RNNs)
+In this study, I use the keras module to forecast time series data for mortgage affordibility data provided by Zillow https://www.zillow.com/research/data/. I start with training a single feed forward neural network, and then train a single layer recurrent neural net, using a GRU recurrent cell both with and without dropout. I also experiment with a deep RNN by increasing the number of layers, and its size. I use the validation error as a guide to finetune the network. I find that the deep RNN model (without dropout) perform the best amongst all the neural networks.
